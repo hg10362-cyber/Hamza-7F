@@ -1,22 +1,64 @@
-
-/* Change the background of the entire visible page */
+/* General page styling */
 body {
-    background-color: #f0f0f0; /* Very light grey */
+    background-color: #f0f0f0; /* Light grey background */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
 }
 
-/* Style for all paragraphs */
+/* Main heading */
+h1 {
+    text-align: center;
+    border: 3px solid orange;
+    padding: 15px;
+    background-color: white;
+    color: darkgreen;
+    border-radius: 10px;
+}
+
+/* Subheadings */
+h2 {
+    color: darkorange;
+    margin-top: 30px;
+}
+
+/* Paragraphs */
 p {
     color: darkgreen;
     font-size: 16px;
-    font-family: 'Times New Roman', serif;
+    line-height: 1.6;
 }
 
-/* Style for the main heading */
-h1 {
-    text-align: center; /* Puts the heading in the middle */
-    border: 2px solid orange; /* Adds an orange border around the heading */
-    padding: 10px; /* Adds space inside the border */
+/* Links */
+a {
+    display: inline-block;
+    margin: 15px 0;
+    color: white;
+    background-color: darkgreen;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 6px;
+}
 
+a:hover {
+    background-color: green;
+}
 
+/* Lists */
+ul {
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+/* Images */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    border-radius: 12px;
+    border: 2px solid #ccc;
+}
 
 
